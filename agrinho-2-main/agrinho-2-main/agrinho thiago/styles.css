@@ -1,0 +1,30 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-fundo: #F5F2E7; /* Bege claro para um fundo mais acolhedor */
+    --branco: #FFFFFF;
+    --dourado: #E6A800; /* Dourado vibrante para um toque festivo */
+    --verde: #4C774E; /* Verde que remete à natureza */
+    --azul-degrade: linear-gradient(97.54deg, #1B4965 35.49%, #5FA8D3 165.37%); /* Azul com tom mais suave e misturado ao verde */
+    --fonte-principal: "Poppins";
+    --azul: #1B4965;
+    --fonte-secundaria: "Josefin Sans";
+    --preto: #1D1D1D; /* Preto suavizado para mais harmonia */
+    --cinza: #5C5C5C; /* Cinza mais quente */
+    --cinza-claro: #A6A6A6;
+    --vermelho-terra: #D95D39; /* Toque quente e festivo */
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+

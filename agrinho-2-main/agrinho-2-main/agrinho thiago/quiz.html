@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Campo ou Cidade?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .quiz-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+        }
+        .question {
+            margin: 15px 0;
+            font-weight: bold;
+        }
+        .options {
+            text-align: left;
+            margin-left: 30px;
+        }
+        .options label {
+            display: block;
+            margin: 5px 0;
+        }
+        .result-link {
+            display: block;
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 200px;
+            margin: auto;
+        }
+        .result-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h2>Quiz: Você é mais campo ou cidade?</h2>
+
+        <div class="question">1. Qual cenário te agrada mais?</div>
+        <div class="options">
+            <label><input type="radio" name="q1"> A natureza e o ar puro do campo</label>
+            <label><input type="radio" name="q1"> A agitação e as luzes da cidade</label>
+        </div>
+
+        <div class="question">2. Qual meio de transporte você prefere?</div>
+        <div class="options">
+            <label><input type="radio" name="q2"> Andar a cavalo ou bicicleta</label>
+            <label><input type="radio" name="q2"> Carro, ônibus ou metrô</label>
+        </div>
+
+        <div class="question">3. O que você gosta de fazer no tempo livre?</div>
+        <div class="options">
+            <label><input type="radio" name="q3"> Curtir a natureza e atividades ao ar livre</label>
+            <label><input type="radio" name="q3"> Ir a shoppings, cinemas e eventos urbanos</label>
+        </div>
+
+        <h3>Agora conte suas respostas:</h3>
+        <p>Se respondeu mais vezes "Campo", clique no botão abaixo:</p>
+        <a class="result-link" href="resultado-campo.html">Resultado: Campo</a>
+
+        <p>Se respondeu mais vezes "Cidade", clique no botão abaixo:</p>
+        <a class="result-link" href="resultado-cidade.html">Resultado: Cidade</a>
+
+        <p>Se respondeu de forma equilibrada, clique abaixo:</p>
+        <a class="result-link" href="resultado-misto.html">Resultado: Misto</a>
+    </div>
+
+</body>
+</html>
